@@ -145,7 +145,7 @@ You are in a conversation with Alex and Blake."""
 
 if __name__ == "__main__":
     try:
-        conversation = run_conversation(num_turns=5)
+        conversation = run_conversation()
         print(f"\nTotal messages in conversation: {len(conversation)}")
     except ValueError as e:
         print(f"Error: {e}")
